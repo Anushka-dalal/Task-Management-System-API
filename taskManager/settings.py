@@ -82,10 +82,10 @@ DATABASES = {
     'default' : {
         'ENGINE' : 'django.db.backends.mysql',
         'NAME': 'tasks_db',
-        'USER': 'root',
-        'PASSWORD': '@Nushka1210',
-        'HOST': 'localhost',       # Or your DB host
-        'PORT': '3306',            # Default MySQL port
+        'USER': '',
+        'PASSWORD': '',
+        'HOST': '',      
+        'PORT': '',            
         'OPTIONS': {
             'init_command': "SET sql_mode='STRICT_TRANS_TABLES'"
         },
